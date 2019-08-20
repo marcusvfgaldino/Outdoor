@@ -1,0 +1,70 @@
+html, body {
+	height:100%;
+}
+
+.content_p, .content_m, .content_g, .content_eg {
+	position: relative;
+	padding: 75px;
+}
+
+.content_p {
+    width: 960px;
+    height: 540px;
+}
+
+.content_m {
+	width: 1920px;
+    height: 540px;
+}
+
+.content_g {
+	width: 1920px;
+    height: 1080px;
+}
+
+.content_eg {
+	width: 2440px;
+	height: 1440px;
+}
+
+.enter_p {
+	width: 25%;
+	float: left;
+	height: 100%;
+} 
+
+.enter_eg {
+	width: 100%;
+	float: left;
+} 
+
+.aling_md_p {
+	margin-left: 365px;
+}
+
+.anim1_big_p {
+	animation: enter_p 1s ease-in-out;
+}
+
+.fade1_right {
+	animation: fade_right 1s ease-in-out;
+}
+
+.big_loop_p {
+	animation-name: big_loop_p;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+
+.rotate_md {
+	animation-name: rotate_md;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+.nodisplay {
+	display: none;
+}
+
+
+
